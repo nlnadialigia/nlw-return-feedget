@@ -7,8 +7,11 @@
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/nlnadialigia/nlw-return-feedget?color=8236CB&style=plastic">
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/nlw-return-feedget?color=8236CB&style=plastic">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/nlnadialigia/nlw-return-feedget?color=8236CB&logoColor=8236CB&style=plastic">
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg?color=8236CB&style=plastic">
+  </a>
   <a href="./LICENSE.md">
-  <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/nlw-return-feedget?color=8236CB&style=plastic">
+    <img alt="GitHub" src="https://img.shields.io/github/license/nlnadialigia/nlw-return-feedget?color=8236CB&style=plastic">
   </a>
 </h1>
 <br>
