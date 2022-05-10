@@ -17,15 +17,15 @@ export class SubmitFeedbackUseCase {
     const { type, comment, screenshot } = request;
 
     if (!type) {
-      throw new Error('Type is required.');
+      return ('Type is required.');
     }
 
     if (!comment) {
-      throw new Error('Comment is required.');
+      return ('Comment is required.');
     }
 
     if (screenshot && !screenshot.startsWith('data:image/png;base64')) {
-      throw new Error('Invalid screenshot format.');
+      return ('Invalid screenshot format.');
     }
 
     await this.feedbacksRepository.create({
@@ -34,7 +34,7 @@ export class SubmitFeedbackUseCase {
       screenshot,
     });
 
-    await this.mailAdapter.sendMail({
+    const mail = await this.mailAdapter.sendMail({
       subject: 'Novo feedback',
       body: [
         '<div style="font-family: sans-serif; font-size: 16px; color: #111;">',
@@ -44,5 +44,7 @@ export class SubmitFeedbackUseCase {
         '</div>',
       ].join('\n'),
     });
+
+    return mail;
   }
 }
