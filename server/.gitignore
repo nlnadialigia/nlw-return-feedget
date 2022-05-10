@@ -24,4 +24,6 @@ node_modules/
 dist
 
 # Jest
-coverage
+coveragesendgrid.env
+sendgrid.env
+sendgrid.env
