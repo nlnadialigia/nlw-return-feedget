@@ -38,8 +38,8 @@ export class SubmitFeedbackUseCase {
       subject: 'Novo feedback',
       body: [
         '<div style="font-family: sans-serif; font-size: 16px; color: #111;">',
-        `<p>Tipo do feedback: ${type}</p>`,
-        `<p>Comentário: ${comment}</p>`,
+        `<p><b style="color: #8257E5;">Tipo do feedback: </b>${type}</p>`,
+        `<p><b style="color: #8257E5;">Comentário: </b>${comment}</p>`,
         screenshot ? `<img src="${screenshot}" />` : '',
         '</div>',
       ].join('\n'),
