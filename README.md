@@ -116,6 +116,12 @@ Para andar a milha extra foram acrescentadas algumas melhorias, tanto referentes
 - Para essa melhoria foi escolhido o serviço de email [SendGridMail](https://sendgrid.com/)
 - O plano gratuito permite integração com até 100 emails por dia.
 
+### 📌 Estilização do email a ser enviado
+- Foi incluída estilização de cores e tamanhos nas informações enviados por email. 
+
+### 📌 Dark and light mode
+- Estilizado dark and light mode de acordo com as configurações do navegador.
+
 
 <br>
 
